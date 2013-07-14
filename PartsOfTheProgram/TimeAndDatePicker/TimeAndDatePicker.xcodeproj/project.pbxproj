@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F71D17F159A10A40082344D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F71D17E159A10A40082344D /* UIKit.framework */; };
+		0F71D181159A10A40082344D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F71D180159A10A40082344D /* Foundation.framework */; };
+		0F71D183159A10A40082344D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F71D182159A10A40082344D /* CoreGraphics.framework */; };
+		0F71D189159A10A40082344D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F71D187159A10A40082344D /* InfoPlist.strings */; };
+		0F71D18B159A10A40082344D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F71D18A159A10A40082344D /* main.m */; };
+		0F71D18F159A10A40082344D /* TimeAndDatePickerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F71D18E159A10A40082344D /* TimeAndDatePickerAppDelegate.m */; };
+		0F71D192159A10A40082344D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F71D190159A10A40082344D /* MainStoryboard.storyboard */; };
+		0F71D195159A10A40082344D /* TimeAndDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F71D194159A10A40082344D /* TimeAndDatePickerViewController.m */; };
+		0F71D19D159A30930082344D /* TimeChooseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F71D19C159A30930082344D /* TimeChooseViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F71D17A159A10A40082344D /* TimeAndDatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeAndDatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F71D17E159A10A40082344D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0F71D180159A10A40082344D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F71D182159A10A40082344D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0F71D186159A10A40082344D /* TimeAndDatePicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimeAndDatePicker-Info.plist"; sourceTree = "<group>"; };
+		0F71D188159A10A40082344D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F71D18A159A10A40082344D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F71D18C159A10A40082344D /* TimeAndDatePicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimeAndDatePicker-Prefix.pch"; sourceTree = "<group>"; };
+		0F71D18D159A10A40082344D /* TimeAndDatePickerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeAndDatePickerAppDelegate.h; sourceTree = "<group>"; };
+		0F71D18E159A10A40082344D /* TimeAndDatePickerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeAndDatePickerAppDelegate.m; sourceTree = "<group>"; };
+		0F71D191159A10A40082344D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0F71D193159A10A40082344D /* TimeAndDatePickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeAndDatePickerViewController.h; sourceTree = "<group>"; };
+		0F71D194159A10A40082344D /* TimeAndDatePickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeAndDatePickerViewController.m; sourceTree = "<group>"; };
+		0F71D19B159A30930082344D /* TimeChooseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeChooseViewController.h; sourceTree = "<group>"; };
+		0F71D19C159A30930082344D /* TimeChooseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeChooseViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F71D177159A10A40082344D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F71D17F159A10A40082344D /* UIKit.framework in Frameworks */,
+				0F71D181159A10A40082344D /* Foundation.framework in Frameworks */,
+				0F71D183159A10A40082344D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F71D16F159A10A40082344D = {
+			isa = PBXGroup;
+			children = (
+				0F71D184159A10A40082344D /* TimeAndDatePicker */,
+				0F71D17D159A10A40082344D /* Frameworks */,
+				0F71D17B159A10A40082344D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F71D17B159A10A40082344D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F71D17A159A10A40082344D /* TimeAndDatePicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F71D17D159A10A40082344D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F71D17E159A10A40082344D /* UIKit.framework */,
+				0F71D180159A10A40082344D /* Foundation.framework */,
+				0F71D182159A10A40082344D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F71D184159A10A40082344D /* TimeAndDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				0F71D18D159A10A40082344D /* TimeAndDatePickerAppDelegate.h */,
+				0F71D18E159A10A40082344D /* TimeAndDatePickerAppDelegate.m */,
+				0F71D190159A10A40082344D /* MainStoryboard.storyboard */,
+				0F71D19B159A30930082344D /* TimeChooseViewController.h */,
+				0F71D19C159A30930082344D /* TimeChooseViewController.m */,
+				0F71D193159A10A40082344D /* TimeAndDatePickerViewController.h */,
+				0F71D194159A10A40082344D /* TimeAndDatePickerViewController.m */,
+				0F71D185159A10A40082344D /* Supporting Files */,
+			);
+			path = TimeAndDatePicker;
+			sourceTree = "<group>";
+		};
+		0F71D185159A10A40082344D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F71D186159A10A40082344D /* TimeAndDatePicker-Info.plist */,
+				0F71D187159A10A40082344D /* InfoPlist.strings */,
+				0F71D18A159A10A40082344D /* main.m */,
+				0F71D18C159A10A40082344D /* TimeAndDatePicker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F71D179159A10A40082344D /* TimeAndDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F71D198159A10A40082344D /* Build configuration list for PBXNativeTarget "TimeAndDatePicker" */;
+			buildPhases = (
+				0F71D176159A10A40082344D /* Sources */,
+				0F71D177159A10A40082344D /* Frameworks */,
+				0F71D178159A10A40082344D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeAndDatePicker;
+			productName = TimeAndDatePicker;
+			productReference = 0F71D17A159A10A40082344D /* TimeAndDatePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F71D171159A10A40082344D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0F71D174159A10A40082344D /* Build configuration list for PBXProject "TimeAndDatePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0F71D16F159A10A40082344D;
+			productRefGroup = 0F71D17B159A10A40082344D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F71D179159A10A40082344D /* TimeAndDatePicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F71D178159A10A40082344D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F71D189159A10A40082344D /* InfoPlist.strings in Resources */,
+				0F71D192159A10A40082344D /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F71D176159A10A40082344D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F71D18B159A10A40082344D /* main.m in Sources */,
+				0F71D18F159A10A40082344D /* TimeAndDatePickerAppDelegate.m in Sources */,
+				0F71D195159A10A40082344D /* TimeAndDatePickerViewController.m in Sources */,
+				0F71D19D159A30930082344D /* TimeChooseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F71D187159A10A40082344D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F71D188159A10A40082344D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0F71D190159A10A40082344D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F71D191159A10A40082344D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F71D196159A10A40082344D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F71D197159A10A40082344D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F71D199159A10A40082344D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeAndDatePicker/TimeAndDatePicker-Prefix.pch";
+				INFOPLIST_FILE = "TimeAndDatePicker/TimeAndDatePicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0F71D19A159A10A40082344D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeAndDatePicker/TimeAndDatePicker-Prefix.pch";
+				INFOPLIST_FILE = "TimeAndDatePicker/TimeAndDatePicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F71D174159A10A40082344D /* Build configuration list for PBXProject "TimeAndDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F71D196159A10A40082344D /* Debug */,
+				0F71D197159A10A40082344D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F71D198159A10A40082344D /* Build configuration list for PBXNativeTarget "TimeAndDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F71D199159A10A40082344D /* Debug */,
+				0F71D19A159A10A40082344D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F71D171159A10A40082344D /* Project object */;
+}

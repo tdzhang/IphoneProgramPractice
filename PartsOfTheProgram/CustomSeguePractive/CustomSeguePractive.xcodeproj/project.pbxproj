@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F28C1F6159E2519007EFB1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F28C1F5159E2519007EFB1E /* UIKit.framework */; };
+		0F28C1F8159E2519007EFB1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F28C1F7159E2519007EFB1E /* Foundation.framework */; };
+		0F28C1FA159E2519007EFB1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F28C1F9159E2519007EFB1E /* CoreGraphics.framework */; };
+		0F28C200159E251A007EFB1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F28C1FE159E251A007EFB1E /* InfoPlist.strings */; };
+		0F28C202159E251A007EFB1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F28C201159E251A007EFB1E /* main.m */; };
+		0F28C206159E251A007EFB1E /* CustomSeguePractiveAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F28C205159E251A007EFB1E /* CustomSeguePractiveAppDelegate.m */; };
+		0F28C209159E251A007EFB1E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F28C207159E251A007EFB1E /* MainStoryboard.storyboard */; };
+		0F28C20C159E251A007EFB1E /* CustomSeguePractiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F28C20B159E251A007EFB1E /* CustomSeguePractiveViewController.m */; };
+		0F28C21C159E268C007EFB1E /* customSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F28C21B159E268C007EFB1E /* customSegue.m */; };
+		0FD73105159E47DF00147B77 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FD73104159E47DF00147B77 /* facebook.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F28C1F1159E2519007EFB1E /* CustomSeguePractive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomSeguePractive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F28C1F5159E2519007EFB1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0F28C1F7159E2519007EFB1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F28C1F9159E2519007EFB1E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0F28C1FD159E251A007EFB1E /* CustomSeguePractive-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomSeguePractive-Info.plist"; sourceTree = "<group>"; };
+		0F28C1FF159E251A007EFB1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F28C201159E251A007EFB1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F28C203159E251A007EFB1E /* CustomSeguePractive-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomSeguePractive-Prefix.pch"; sourceTree = "<group>"; };
+		0F28C204159E251A007EFB1E /* CustomSeguePractiveAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomSeguePractiveAppDelegate.h; sourceTree = "<group>"; };
+		0F28C205159E251A007EFB1E /* CustomSeguePractiveAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomSeguePractiveAppDelegate.m; sourceTree = "<group>"; };
+		0F28C208159E251A007EFB1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0F28C20A159E251A007EFB1E /* CustomSeguePractiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomSeguePractiveViewController.h; sourceTree = "<group>"; };
+		0F28C20B159E251A007EFB1E /* CustomSeguePractiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomSeguePractiveViewController.m; sourceTree = "<group>"; };
+		0F28C21A159E268C007EFB1E /* customSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customSegue.h; sourceTree = "<group>"; };
+		0F28C21B159E268C007EFB1E /* customSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customSegue.m; sourceTree = "<group>"; };
+		0FD73104159E47DF00147B77 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F28C1EE159E2519007EFB1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F28C1F6159E2519007EFB1E /* UIKit.framework in Frameworks */,
+				0F28C1F8159E2519007EFB1E /* Foundation.framework in Frameworks */,
+				0F28C1FA159E2519007EFB1E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F28C1E6159E2519007EFB1E = {
+			isa = PBXGroup;
+			children = (
+				0F28C1FB159E2519007EFB1E /* CustomSeguePractive */,
+				0F28C1F4159E2519007EFB1E /* Frameworks */,
+				0F28C1F2159E2519007EFB1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F28C1F2159E2519007EFB1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F28C1F1159E2519007EFB1E /* CustomSeguePractive.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F28C1F4159E2519007EFB1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F28C1F5159E2519007EFB1E /* UIKit.framework */,
+				0F28C1F7159E2519007EFB1E /* Foundation.framework */,
+				0F28C1F9159E2519007EFB1E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F28C1FB159E2519007EFB1E /* CustomSeguePractive */ = {
+			isa = PBXGroup;
+			children = (
+				0F28C204159E251A007EFB1E /* CustomSeguePractiveAppDelegate.h */,
+				0F28C205159E251A007EFB1E /* CustomSeguePractiveAppDelegate.m */,
+				0F28C207159E251A007EFB1E /* MainStoryboard.storyboard */,
+				0F28C21A159E268C007EFB1E /* customSegue.h */,
+				0F28C21B159E268C007EFB1E /* customSegue.m */,
+				0F28C20A159E251A007EFB1E /* CustomSeguePractiveViewController.h */,
+				0F28C20B159E251A007EFB1E /* CustomSeguePractiveViewController.m */,
+				0FD73104159E47DF00147B77 /* facebook.png */,
+				0F28C1FC159E251A007EFB1E /* Supporting Files */,
+			);
+			path = CustomSeguePractive;
+			sourceTree = "<group>";
+		};
+		0F28C1FC159E251A007EFB1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F28C1FD159E251A007EFB1E /* CustomSeguePractive-Info.plist */,
+				0F28C1FE159E251A007EFB1E /* InfoPlist.strings */,
+				0F28C201159E251A007EFB1E /* main.m */,
+				0F28C203159E251A007EFB1E /* CustomSeguePractive-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F28C1F0159E2519007EFB1E /* CustomSeguePractive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F28C20F159E251A007EFB1E /* Build configuration list for PBXNativeTarget "CustomSeguePractive" */;
+			buildPhases = (
+				0F28C1ED159E2519007EFB1E /* Sources */,
+				0F28C1EE159E2519007EFB1E /* Frameworks */,
+				0F28C1EF159E2519007EFB1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomSeguePractive;
+			productName = CustomSeguePractive;
+			productReference = 0F28C1F1159E2519007EFB1E /* CustomSeguePractive.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F28C1E8159E2519007EFB1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0F28C1EB159E2519007EFB1E /* Build configuration list for PBXProject "CustomSeguePractive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0F28C1E6159E2519007EFB1E;
+			productRefGroup = 0F28C1F2159E2519007EFB1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F28C1F0159E2519007EFB1E /* CustomSeguePractive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F28C1EF159E2519007EFB1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F28C200159E251A007EFB1E /* InfoPlist.strings in Resources */,
+				0F28C209159E251A007EFB1E /* MainStoryboard.storyboard in Resources */,
+				0FD73105159E47DF00147B77 /* facebook.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F28C1ED159E2519007EFB1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F28C202159E251A007EFB1E /* main.m in Sources */,
+				0F28C206159E251A007EFB1E /* CustomSeguePractiveAppDelegate.m in Sources */,
+				0F28C20C159E251A007EFB1E /* CustomSeguePractiveViewController.m in Sources */,
+				0F28C21C159E268C007EFB1E /* customSegue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F28C1FE159E251A007EFB1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F28C1FF159E251A007EFB1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0F28C207159E251A007EFB1E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F28C208159E251A007EFB1E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F28C20D159E251A007EFB1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F28C20E159E251A007EFB1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F28C210159E251A007EFB1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomSeguePractive/CustomSeguePractive-Prefix.pch";
+				INFOPLIST_FILE = "CustomSeguePractive/CustomSeguePractive-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0F28C211159E251A007EFB1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomSeguePractive/CustomSeguePractive-Prefix.pch";
+				INFOPLIST_FILE = "CustomSeguePractive/CustomSeguePractive-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F28C1EB159E2519007EFB1E /* Build configuration list for PBXProject "CustomSeguePractive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F28C20D159E251A007EFB1E /* Debug */,
+				0F28C20E159E251A007EFB1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F28C20F159E251A007EFB1E /* Build configuration list for PBXNativeTarget "CustomSeguePractive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F28C210159E251A007EFB1E /* Debug */,
+				0F28C211159E251A007EFB1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F28C1E8159E2519007EFB1E /* Project object */;
+}

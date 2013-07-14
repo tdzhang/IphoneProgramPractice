@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F6D189215A63E6400A690F4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F6D189115A63E6400A690F4 /* QuartzCore.framework */; };
+		0F94FBB615A60EFC00D7012E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F94FBB515A60EFC00D7012E /* UIKit.framework */; };
+		0F94FBB815A60EFC00D7012E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F94FBB715A60EFC00D7012E /* Foundation.framework */; };
+		0F94FBBA15A60EFC00D7012E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F94FBB915A60EFC00D7012E /* CoreGraphics.framework */; };
+		0F94FBC015A60EFC00D7012E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F94FBBE15A60EFC00D7012E /* InfoPlist.strings */; };
+		0F94FBC215A60EFC00D7012E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F94FBC115A60EFC00D7012E /* main.m */; };
+		0F94FBC615A60EFC00D7012E /* ButtonAnimationPracticeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F94FBC515A60EFC00D7012E /* ButtonAnimationPracticeAppDelegate.m */; };
+		0F94FBC915A60EFC00D7012E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F94FBC715A60EFC00D7012E /* MainStoryboard.storyboard */; };
+		0F94FBCC15A60EFC00D7012E /* ButtonAnimationPracticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F94FBCB15A60EFC00D7012E /* ButtonAnimationPracticeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F6D189115A63E6400A690F4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0F94FBB115A60EFC00D7012E /* ButtonAnimationPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonAnimationPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F94FBB515A60EFC00D7012E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0F94FBB715A60EFC00D7012E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F94FBB915A60EFC00D7012E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0F94FBBD15A60EFC00D7012E /* ButtonAnimationPractice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ButtonAnimationPractice-Info.plist"; sourceTree = "<group>"; };
+		0F94FBBF15A60EFC00D7012E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F94FBC115A60EFC00D7012E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F94FBC315A60EFC00D7012E /* ButtonAnimationPractice-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ButtonAnimationPractice-Prefix.pch"; sourceTree = "<group>"; };
+		0F94FBC415A60EFC00D7012E /* ButtonAnimationPracticeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonAnimationPracticeAppDelegate.h; sourceTree = "<group>"; };
+		0F94FBC515A60EFC00D7012E /* ButtonAnimationPracticeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonAnimationPracticeAppDelegate.m; sourceTree = "<group>"; };
+		0F94FBC815A60EFC00D7012E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0F94FBCA15A60EFC00D7012E /* ButtonAnimationPracticeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonAnimationPracticeViewController.h; sourceTree = "<group>"; };
+		0F94FBCB15A60EFC00D7012E /* ButtonAnimationPracticeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonAnimationPracticeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F94FBAE15A60EFC00D7012E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6D189215A63E6400A690F4 /* QuartzCore.framework in Frameworks */,
+				0F94FBB615A60EFC00D7012E /* UIKit.framework in Frameworks */,
+				0F94FBB815A60EFC00D7012E /* Foundation.framework in Frameworks */,
+				0F94FBBA15A60EFC00D7012E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F94FBA615A60EFC00D7012E = {
+			isa = PBXGroup;
+			children = (
+				0F6D189115A63E6400A690F4 /* QuartzCore.framework */,
+				0F94FBBB15A60EFC00D7012E /* ButtonAnimationPractice */,
+				0F94FBB415A60EFC00D7012E /* Frameworks */,
+				0F94FBB215A60EFC00D7012E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F94FBB215A60EFC00D7012E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F94FBB115A60EFC00D7012E /* ButtonAnimationPractice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F94FBB415A60EFC00D7012E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F94FBB515A60EFC00D7012E /* UIKit.framework */,
+				0F94FBB715A60EFC00D7012E /* Foundation.framework */,
+				0F94FBB915A60EFC00D7012E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F94FBBB15A60EFC00D7012E /* ButtonAnimationPractice */ = {
+			isa = PBXGroup;
+			children = (
+				0F94FBC415A60EFC00D7012E /* ButtonAnimationPracticeAppDelegate.h */,
+				0F94FBC515A60EFC00D7012E /* ButtonAnimationPracticeAppDelegate.m */,
+				0F94FBC715A60EFC00D7012E /* MainStoryboard.storyboard */,
+				0F94FBCA15A60EFC00D7012E /* ButtonAnimationPracticeViewController.h */,
+				0F94FBCB15A60EFC00D7012E /* ButtonAnimationPracticeViewController.m */,
+				0F94FBBC15A60EFC00D7012E /* Supporting Files */,
+			);
+			path = ButtonAnimationPractice;
+			sourceTree = "<group>";
+		};
+		0F94FBBC15A60EFC00D7012E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F94FBBD15A60EFC00D7012E /* ButtonAnimationPractice-Info.plist */,
+				0F94FBBE15A60EFC00D7012E /* InfoPlist.strings */,
+				0F94FBC115A60EFC00D7012E /* main.m */,
+				0F94FBC315A60EFC00D7012E /* ButtonAnimationPractice-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F94FBB015A60EFC00D7012E /* ButtonAnimationPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F94FBCF15A60EFC00D7012E /* Build configuration list for PBXNativeTarget "ButtonAnimationPractice" */;
+			buildPhases = (
+				0F94FBAD15A60EFC00D7012E /* Sources */,
+				0F94FBAE15A60EFC00D7012E /* Frameworks */,
+				0F94FBAF15A60EFC00D7012E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonAnimationPractice;
+			productName = ButtonAnimationPractice;
+			productReference = 0F94FBB115A60EFC00D7012E /* ButtonAnimationPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F94FBA815A60EFC00D7012E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ButtonAnimationPractice;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 0F94FBAB15A60EFC00D7012E /* Build configuration list for PBXProject "ButtonAnimationPractice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0F94FBA615A60EFC00D7012E;
+			productRefGroup = 0F94FBB215A60EFC00D7012E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F94FBB015A60EFC00D7012E /* ButtonAnimationPractice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F94FBAF15A60EFC00D7012E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F94FBC015A60EFC00D7012E /* InfoPlist.strings in Resources */,
+				0F94FBC915A60EFC00D7012E /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F94FBAD15A60EFC00D7012E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F94FBC215A60EFC00D7012E /* main.m in Sources */,
+				0F94FBC615A60EFC00D7012E /* ButtonAnimationPracticeAppDelegate.m in Sources */,
+				0F94FBCC15A60EFC00D7012E /* ButtonAnimationPracticeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F94FBBE15A60EFC00D7012E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F94FBBF15A60EFC00D7012E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0F94FBC715A60EFC00D7012E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F94FBC815A60EFC00D7012E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F94FBCD15A60EFC00D7012E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F94FBCE15A60EFC00D7012E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F94FBD015A60EFC00D7012E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonAnimationPractice/ButtonAnimationPractice-Prefix.pch";
+				INFOPLIST_FILE = "ButtonAnimationPractice/ButtonAnimationPractice-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0F94FBD115A60EFC00D7012E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonAnimationPractice/ButtonAnimationPractice-Prefix.pch";
+				INFOPLIST_FILE = "ButtonAnimationPractice/ButtonAnimationPractice-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F94FBAB15A60EFC00D7012E /* Build configuration list for PBXProject "ButtonAnimationPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F94FBCD15A60EFC00D7012E /* Debug */,
+				0F94FBCE15A60EFC00D7012E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F94FBCF15A60EFC00D7012E /* Build configuration list for PBXNativeTarget "ButtonAnimationPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F94FBD015A60EFC00D7012E /* Debug */,
+				0F94FBD115A60EFC00D7012E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F94FBA815A60EFC00D7012E /* Project object */;
+}
